@@ -4,6 +4,7 @@
   "private": true,
   "main": "main/main.js",
   "scripts": {
+    "dev": "electronmon .",
     "start": "electron ."
   },
   "dependencies": {
