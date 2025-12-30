@@ -1,0 +1,178 @@
+{
+  "profile": {
+    "full_name": "Anastasia D'Accurzio",
+    "title": "Assistente all'infanzia / Addetta servizi educativi e di supporto",
+    "location": "Chieti (CH), Italia",
+    "email": "anastasiadaccurzio1@gmail.com",
+    "phone": "3393227721",
+    "date_of_birth": "15/10/1973",
+    "photo": null
+  },
+
+  "summary": "Professionista affidabile, puntuale e con oltre 20 anni di esperienza in ambito educativo, assistenziale, domestico e di supporto alle famiglie. Nel corso degli anni ha maturato una solida competenza nella gestione autonoma dei bambini di diverse fasce d’età, dalla prima infanzia all’età scolare, occupandosi con attenzione delle routine quotidiane, dell’igiene personale, dell’alimentazione e delle attività ludico-educative.\n\nDotata di ottime capacità organizzative, senso di responsabilità e forte attenzione al benessere della persona, è riconosciuta per sensibilità, riservatezza e affidabilità nello svolgimento delle mansioni affidate. Abituata a lavorare sia in autonomia che in collaborazione con famiglie e figure educative, dimostra flessibilità e capacità di adattamento a contesti differenti.\n\nAttualmente impegnata in un percorso formativo regionale finalizzato al potenziamento delle competenze nell’ambito dell’infanzia, con particolare attenzione allo sviluppo educativo, relazionale e sociale dei bambini.",
+  
+  "experience": [
+    {
+      "role": "Baby Sitter",
+      "company": "Famiglia privata",
+      "location": "Chieti (CH)",
+      "start": "1992",
+      "end": "1999",
+      "tasks": [
+        "Accudimento quotidiano di due bambini, dalla prima infanzia fino all’età scolare",
+        "Cura dell’igiene personale, cambio pannolini e gestione completa delle routine quotidiane",
+        "Preparazione dei pasti: dal latte e svezzamento fino all’alimentazione autonoma",
+        "Supporto nella crescita e nello sviluppo dell’autonomia personale",
+        "Attività ludico-educative adeguate all’età",
+        "Accompagnamento e supporto nelle prime esperienze scolastiche (scuola dell’infanzia)",
+        "Organizzazione della giornata e gestione responsabile dell’ambiente familiare"
+        ]
+
+    },
+    {
+      "role": "Baby Sitter",
+      "company": "Famiglia privata",
+      "location": "Francavilla al Mare (CH)",
+      "start": "2011-01",
+      "end": "2013-11",
+      "tasks": [
+        "Cura quotidiana di una bambina",
+        "Cambio pannolini, alimentazione e igiene personale",
+        "Attività ludiche e accompagnamento presso parchi giochi e spiaggia"
+      ]
+    },
+    {
+      "role": "Assistente domiciliare anziani",
+      "company": "Privati",
+      "location": "Chieti (CH)",
+      "start": "2015",
+      "end": "2021",
+      "tasks": [
+        "Assistenza a persone anziane autosufficienti e non",
+        "Supporto nelle attività quotidiane e nella gestione domestica",
+        "Somministrazione pasti e compagnia"
+      ]
+    },
+    {
+      "role": "Addetta alla segreteria",
+      "company": "Tecnotagli",
+      "location": "Villanova (PE)",
+      "start": "2013-03",
+      "end": "2013-07",
+      "tasks": [
+        "Attività di reception",
+        "Smistamento fatture",
+        "Supporto amministrativo",
+        "Gestione documentale"
+      ]
+    },
+    {
+      "role": "Barista / Cameriera / Addetta pulizie",
+      "company": "Stabilimento Balneare Capo Verde",
+      "location": "Francavilla al Mare (CH)",
+      "start": "2008-06",
+      "end": "2012-08",
+      "tasks": [
+        "Pulizie interne ed esterne dello stabilimento",
+        "Preparazione e servizio ai tavoli",
+        "Preparazione caffè, aperitivi, panini e gelati",
+        "Supporto attività di bar e ristorazione"
+      ]
+    },
+    {
+      "role": "Cucitrice industriale",
+      "company": "L.A.F. SRL",
+      "location": "Chieti Scalo (CH)",
+      "start": "2004-03",
+      "end": "2005-04",
+      "tasks": [
+        "Cucito industriale su pantaloni e camicie",
+        "Lavoro in linea produttiva",
+        "Precisione e adattabilità ai ritmi produttivi"
+      ]
+    },
+    {
+      "role": "Tirocinante Assistente all'Infanzia",
+      "company": "Scuola dell'infanzia San Franco",
+      "location": "Francavilla al Mare (CH)",
+      "start": "2001",
+      "end": "2001",
+      "tasks": [
+        "Supporto alle attività didattiche",
+        "Affiancamento educatrici",
+        "Assistenza bambini della scuola dell’infanzia"
+      ]
+    },
+    {
+      "role": "Tirocinante Ludoteca",
+      "company": "Ludoteca Comunale 'Giocando s'impara' – Progetto Abruzzo Include - Regione Abruzzo.",
+      "location": "Chieti (CH)",
+      "start": "2024",
+      "end": null,
+      "current": true,
+      "tasks": [
+        "Supporto attività ludico-educative",
+        "Gestione gruppi di bambini",
+        "Organizzazione giochi e laboratori creativi",
+        "Assistenza nelle attività quotidiane della ludoteca"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "title": "Diploma di Maturità Magistrale",
+      "school": "Istituto Magistrale Isabella Gonzaga del Vasto",
+      "location": "Chieti",
+      "year": "1991"
+    },
+    {
+      "title": "Qualifica Professionale – Addetto alle Comunità Infantili",
+      "school": "IAL – CISL",
+      "location": "Chieti Scalo (CH)",
+      "year": "2001"
+    },
+    {
+      "title": "Qualifica Professionale – Word Processing (400 ore)",
+      "school": "IAL – CISL",
+      "location": "Chieti Scalo (CH)",
+      "year": "1994"
+    }
+  ],
+
+  "skills": {
+    "core": [
+      "Assistenza all'infanzia",
+      "Gestione routine bambini",
+      "Supporto compiti",
+      "Attività ludico-educative",
+      "Pulizie e cura degli ambienti",
+      "Segreteria base",
+      "Bar e ristorazione",
+      "Cucito industriale"
+    ],
+    "soft": [
+      "Affidabilità",
+      "Puntualità",
+      "Capacità organizzative",
+      "Riservatezza",
+      "Comunicazione",
+      "Problem solving",
+      "Flessibilità",
+      "Lavoro in autonomia"
+    ]
+  },
+
+  "languages": [
+    { "name": "Italiano", "level": "Madrelingua" },
+    { "name": "Inglese", "level": "Base" }
+  ],
+
+  "extra": {
+    "availability": "Disponibile per lavoro part-time, full-time e turni",
+    "mobility": "a piedi o con mezzi pubblici",
+    "notes": "Su richiesta disponibile certificazione di invalidità civile"
+  },
+
+  "other_sections": []
+}

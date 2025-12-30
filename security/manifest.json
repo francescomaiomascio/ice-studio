@@ -1,0 +1,16 @@
+{
+  "name": "security",
+  "version": "1.0.0",
+  "description": "ICE Studio security orchestration: network identity, pairing, trust activation",
+  "capabilities": [
+    "network_identity",
+    "pairing",
+    "trust_activation"
+  ],
+  "endpoints": {
+    "network": "/preboot/network",
+    "pairing_request": "/preboot/pairing/request",
+    "pairing_list": "/preboot/pairing/list",
+    "pairing_approve": "/preboot/pairing/approve"
+  }
+}

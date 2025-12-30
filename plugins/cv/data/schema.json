@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cortex CV Schema 2025",
+  "type": "object",
+  "properties": {
+    "profile": {
+      "type": "object",
+      "properties": {
+        "full_name": { "type": "string" },
+        "title": { "type": "string" },
+        "location": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "date_of_birth": { "type": "string" },
+        "photo": { "type": ["string", "null"] }
+      }
+    },
+    "summary": { "type": "string" },
+
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": { "type": "string" },
+          "company": { "type": "string" },
+          "location": { "type": "string" },
+          "start": { "type": "string" },
+          "end": { "type": ["string", "null"] },
+          "current": { "type": "boolean" },
+          "tasks": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "school": { "type": "string" },
+          "location": { "type": "string" },
+          "year": { "type": "string" }
+        }
+      }
+    },
+
+    "skills": {
+      "type": "object",
+      "properties": {
+        "core": { "type": "array", "items": { "type": "string" } },
+        "soft": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "level": { "type": "string" }
+        }
+      }
+    },
+
+    "extra": {
+      "type": "object",
+      "properties": {
+        "availability": { "type": "string" },
+        "mobility": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+
+    "other_sections": { "type": "array" }
+  }
+}

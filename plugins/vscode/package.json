@@ -1,0 +1,70 @@
+{
+  "name": "ice-studio-vscode",
+  "displayName": "ICE Studio IDE Bridge",
+  "description": "Bridge VSCode ↔ ICE Studio IDE server (ws://127.0.0.1:7030).",
+  "version": "0.0.1",
+  "publisher": "mothx-lab",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onView:iceStudio.chat",
+    "onCommand:iceStudio.connect"
+  ],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "iceStudio-sidebar",
+          "title": "ICE Studio",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "iceStudio-sidebar": [
+        {
+          "id": "iceStudio.chat",
+          "name": "Chat",
+          "type": "webview"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "iceStudio.connect",
+        "title": "ICE Studio: Connect to IDE Server"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "iceStudio.connect",
+          "when": "view == iceStudio.chat",
+          "group": "navigation@1",
+          "icon": "$(plug)"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.10",
+    "@types/vscode": "^1.90.0",
+    "@vscode/test-electron": "^2.0.0",
+    "@vscode/vsce": "^3.0.0",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <title>CV Generator</title>
+
+    <link rel="stylesheet" href="panel.css" />
+
+    <script type="module" src="panel.js"></script>
+</head>
+
+<body>
+    <div class="cv-root">
+
+        <header class="cv-header">
+            <h1>Cortex CV Generator</h1>
+            <p class="subtitle">Estrai → Normalizza → Renderizza → PDF</p>
+        </header>
+
+        <section>
+            <h2>1. Input</h2>
+
+            <textarea id="cv-text" placeholder="Incolla qui il testo del vocale..."></textarea>
+
+            <input id="cv-files" type="file" multiple />
+            <button id="btn-analyze">Genera JSON</button>
+        </section>
+
+        <section>
+            <h2>2. JSON</h2>
+            <pre id="preview">{...}</pre>
+        </section>
+
+        <section>
+            <h2>3. Azioni</h2>
+            <button id="btn-html">Genera HTML</button>
+            <button id="btn-pdf">Esporta PDF</button>
+            <button id="btn-clean">Elimina</button>
+        </section>
+
+    </div>
+</body>
+</html>

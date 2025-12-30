@@ -1,0 +1,32 @@
+/* ==========================================================================
+   THEME — DARK (Neutral)
+   Sovrascrive SOLO i semantic tokens.
+   ========================================================================== */
+
+:root {
+    --color-bg: #0f0f11;
+    --color-bg-2: #151518;
+
+    --color-panel: #1b1c20;
+    --color-panel-strong: #16171a;
+
+    --color-border: rgba(255,255,255,0.08);
+    --color-border-strong: rgba(255,255,255,0.15);
+
+    --color-text: #f2f2f2;
+    --color-text-muted: #a0a0a7;
+
+    --color-accent: #00c886;
+    --color-accent-strong: #009f6c;
+
+    --color-danger: #ff5c5c;
+    --color-info: #009bff;
+}
+
+/* Bind global */
+:root {
+    --theme-bg: var(--color-bg);
+    --theme-text: var(--color-text);
+    --theme-accent: var(--color-accent);
+    --theme-panel: var(--color-panel);
+}

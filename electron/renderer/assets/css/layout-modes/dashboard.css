@@ -1,0 +1,180 @@
+/* ==========================================================================
+   DASHBOARD — ICE Studio Professional Layout
+   Pulita, modulare, responsive, perfettamente temabile.
+   ========================================================================== */
+
+.dashboard-root {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-header {
+    padding: 28px 40px 10px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.dashboard-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.brand-logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.brand-subtitle {
+    font-size: 13px;
+    color: var(--color-text-muted);
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+/* ======================================================================
+   GRID PRINCIPALE
+====================================================================== */
+
+.dashboard-content {
+    flex: 1;
+    display: grid;
+    gap: 50px;
+
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+
+    padding: 40px 60px 80px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "workspaces workspaces"
+        "recents walkthroughs";
+}
+
+.workspace-section {
+    grid-area: workspaces;
+}
+.recents-section {
+    grid-area: recents;
+}
+.walkthroughs-section {
+    grid-area: walkthroughs;
+}
+
+/* ======================================================================
+   WORKSPACE CARDS
+====================================================================== */
+#workspace-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 26px;
+}
+
+.workspace-card {
+    background: var(--color-panel);
+    border: 1px solid var(--color-border);
+
+    border-radius: var(--radius-lg);
+    padding: 22px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.workspace-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--theme-accent);
+    box-shadow: var(--shadow-md);
+}
+
+/* ======================================================================
+   RECENTS
+====================================================================== */
+
+.recent-files {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.recent-file-item {
+    padding: 6px 4px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+
+    transition: background var(--transition-fast);
+}
+
+.recent-file-item:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+/* ======================================================================
+   WALKTHROUGHS
+====================================================================== */
+.walkthroughs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.walk-item {
+    padding: 12px 14px;
+    background: var(--color-panel);
+    border: 1px solid var(--color-border);
+
+    border-radius: var(--radius-md);
+    cursor: pointer;
+
+    transition: background var(--transition-fast), border var(--transition-fast);
+}
+
+.walk-item:hover {
+    background: var(--color-panel-strong);
+    border-color: var(--theme-accent);
+}
+
+/* ======================================================================
+   RESPONSIVE
+====================================================================== */
+
+@media (max-width: 1200px) {
+    .dashboard-content {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "workspaces"
+            "recents"
+            "walkthroughs";
+        padding: 30px 30px 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .dashboard-header {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        text-align: center;
+    }
+
+    #workspace-cards {
+        grid-template-columns: 1fr;
+    }
+}

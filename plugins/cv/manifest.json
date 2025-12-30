@@ -1,0 +1,16 @@
+{
+  "id": "cv",
+  "name": "CV Generator",
+  "version": "1.0.0",
+  "type": "panel",
+  "entrypoint": "panel/index.html",
+
+  "agent_api": [
+    { "method": "cv.parse_raw" },
+    { "method": "cv.fill_schema" },
+    { "method": "cv.get" },
+    { "method": "cv.render_html" },
+    { "method": "cv.export_pdf" },
+    { "method": "cv.cleanup" }
+  ]
+}

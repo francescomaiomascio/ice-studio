@@ -1,0 +1,89 @@
+/* ==========================================================================
+   UTILITIES — Atomic Layer (no branding)
+   Riutilizzabili ovunque: Dashboard, Workspace, Plugins, ChatFloating.
+   ========================================================================== */
+
+/* ----- DISPLAY ----- */
+.u-flex { display: flex; }
+.u-flex-col { display: flex; flex-direction: column; }
+.u-inline-flex { display: inline-flex; }
+
+.u-center { display: flex; align-items: center; justify-content: center; }
+.u-items-center { align-items: center; }
+.u-items-start { align-items: flex-start; }
+.u-items-end { align-items: flex-end; }
+
+.u-justify-between { justify-content: space-between; }
+.u-justify-center { justify-content: center; }
+.u-justify-end { justify-content: flex-end; }
+
+/* ----- GAPS ----- */
+.u-gap-4 { gap: 4px; }
+.u-gap-8 { gap: 8px; }
+.u-gap-12 { gap: 12px; }
+.u-gap-16 { gap: 16px; }
+
+/* ----- SPACING ----- */
+.u-p-4  { padding: var(--space-4); }
+.u-p-8  { padding: var(--space-8); }
+.u-p-12 { padding: var(--space-12); }
+.u-p-16 { padding: var(--space-16); }
+
+.u-px-8 { padding-left: 8px; padding-right: 8px; }
+.u-py-4 { padding-top: 4px; padding-bottom: 4px; }
+
+.u-m-8 { margin: var(--space-8); }
+.u-mt-8 { margin-top: var(--space-8); }
+.u-mb-8 { margin-bottom: var(--space-8); }
+
+/* ----- WIDTH / HEIGHT ----- */
+.u-w-full { width: 100%; }
+.u-h-full { height: 100%; }
+.u-max-w-full { max-width: 100%; }
+
+/* ----- TEXT ----- */
+.u-text-xs { font-size: var(--text-xs); }
+.u-text-sm { font-size: var(--text-sm); }
+.u-text-md { font-size: var(--text-md); }
+.u-text-lg { font-size: var(--text-lg); }
+.u-text-xl { font-size: var(--text-xl); }
+
+.u-text-muted { color: var(--color-text-muted); }
+
+/* ----- PANELS / BORDERS ----- */
+.u-bg-panel { background: var(--color-panel); }
+.u-bg-panel-strong { background: var(--color-panel-strong); }
+
+.u-border { border: 1px solid var(--color-border); }
+.u-border-strong { border: 1px solid var(--color-border-strong); }
+.u-border-top { border-top: 1px solid var(--color-border); }
+.u-border-bottom { border-bottom: 1px solid var(--color-border); }
+
+/* ----- RADIUS ----- */
+.u-radius-xs { border-radius: var(--radius-xs); }
+.u-radius-sm { border-radius: var(--radius-sm); }
+.u-radius-md { border-radius: var(--radius-md); }
+.u-radius-lg { border-radius: var(--radius-lg); }
+.u-radius-xl { border-radius: var(--radius-xl); }
+
+/* ----- SHADOWS ----- */
+.u-shadow-sm { box-shadow: var(--shadow-sm); }
+.u-shadow-md { box-shadow: var(--shadow-md); }
+.u-shadow-lg { box-shadow: var(--shadow-lg); }
+
+/* ----- BEHAVIOR ----- */
+.u-pointer { cursor: pointer; }
+.u-noselect { user-select: none; }
+
+/* ----- POSITIONING ----- */
+.u-relative { position: relative; }
+.u-absolute { position: absolute; }
+.u-fixed    { position: fixed; }
+
+/* ----- OVERFLOW ----- */
+.u-overflow-hidden { overflow: hidden; }
+.u-overflow-auto { overflow: auto; }
+
+/* ----- VISIBILITY ----- */
+.u-hidden { display: none !important; }
+.u-visible { display: block !important; }

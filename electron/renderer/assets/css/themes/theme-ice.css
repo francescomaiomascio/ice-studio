@@ -1,0 +1,56 @@
+/* ==========================================================================
+   THEME — ICE (Frozen Galaxy)
+   Usa i tokens ICE DNA + semantic tokens personalizzati
+   ========================================================================== */
+
+:root[data-theme="ice"] {
+    /* Background principale */
+    --color-bg: #09000F;
+    --color-bg-2: #14051F;
+
+    /* Pannelli */
+    --color-panel: rgba(255,255,255,0.04);
+    --color-panel-strong: rgba(255,255,255,0.06);
+
+    /* Testo */
+    --color-text: var(--ice-frost-white);
+    --color-text-muted: rgba(230,230,255,0.65);
+
+    /* Borders */
+    --color-border: rgba(255,255,255,0.10);
+    --color-border-strong: rgba(255,255,255,0.18);
+
+    /* Accenti ICE */
+    --color-accent: var(--ice-accent-purple);
+    --color-accent-strong: var(--ice-neon-cyan);
+
+    /* Bind per ThemeAgent */
+    --theme-bg: var(--color-bg);
+    --theme-text: var(--color-text);
+    --theme-accent: var(--color-accent);
+    --theme-panel: var(--color-panel);
+}
+
+/* ==========================================================================
+   VISUAL EFFECTS (Gradients, Nebula, Glow)
+   ========================================================================== */
+
+[data-theme="ice"] body {
+    background: linear-gradient(
+        150deg,
+        #09000F 0%,
+        #1B0730 40%,
+        #2E1052 100%
+    );
+}
+
+[data-theme="ice"] .topbar {
+    background: rgba(255,255,255,0.04);
+    border-bottom-color: rgba(255,255,255,0.12);
+}
+
+[data-theme="ice"] .workspace-card:hover,
+[data-theme="ice"] .walk-item:hover {
+    border-color: var(--ice-accent-purple);
+    box-shadow: var(--shadow-neon-purple);
+}

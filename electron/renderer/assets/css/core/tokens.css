@@ -1,0 +1,114 @@
+/* ==========================================================================
+   DESIGN TOKENS — CORE FOUNDATION (70% Neutral)
+   Questi tokens definiscono il linguaggio visivo universale della UI.
+   I temi (dark, ice…) sovrascrivono SOLO i semantic tokens.
+   ========================================================================== */
+
+:root {
+    /* -----------------------------------------------------------
+       SPACING SCALE
+       ----------------------------------------------------------- */
+    --space-2: 2px;
+    --space-4: 4px;
+    --space-8: 8px;
+    --space-12: 12px;
+    --space-16: 16px;
+    --space-20: 20px;
+    --space-28: 28px;
+
+    /* -----------------------------------------------------------
+       RADII SYSTEM
+       ----------------------------------------------------------- */
+    --radius-xs: 4px;
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --radius-xl: 20px;
+
+    /* -----------------------------------------------------------
+       TYPOGRAPHY
+       ----------------------------------------------------------- */
+    --font-sans: "Inter", system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+
+    --text-xs: 11px;
+    --text-sm: 13px;
+    --text-md: 15px;
+    --text-lg: 18px;
+    --text-xl: 24px;
+
+    /* -----------------------------------------------------------
+       MOTION SYSTEM
+       ----------------------------------------------------------- */
+    --transition-fast: 120ms ease;
+    --transition: 180ms ease;
+    --transition-slow: 260ms ease;
+
+    /* -----------------------------------------------------------
+       ELEVATION (ombre neutre)
+       ----------------------------------------------------------- */
+    --shadow-sm: 0 2px 10px rgba(0,0,0,0.18);
+    --shadow-md: 0 4px 18px rgba(0,0,0,0.25);
+    --shadow-lg: 0 8px 32px rgba(0,0,0,0.38);
+
+    /* -----------------------------------------------------------
+       Z-LAYERS
+       ----------------------------------------------------------- */
+    --z-base: 1;
+    --z-float: 100;
+    --z-overlay: 1000;
+    --z-modal: 1100;
+    --z-menu: 1200;
+
+    /* -----------------------------------------------------------
+       SEMANTIC COLOR TOKENS (NEUTRAL THEME)
+       I temi sovrascrivono questi valori.
+       ----------------------------------------------------------- */
+    --color-bg: #0f0f11;
+    --color-bg-2: #151518;
+
+    --color-panel: #1b1c20;
+    --color-panel-strong: #16171a;
+
+    --color-border: rgba(255,255,255,0.08);
+    --color-border-strong: rgba(255,255,255,0.15);
+
+    --color-text: #f2f2f2;
+    --color-text-muted: #999;
+
+    --color-accent: #00c886;
+    --color-accent-strong: #009f6c;
+
+    --color-danger: #ff5c5c;
+    --color-info: #009bff;
+}
+
+/* ==========================================================================
+   ICE DNA (30%) — Identità visiva del brand ICE Studio
+   Non è un tema: è un layer di estetica disponibile ai temi.
+   ========================================================================== */
+
+:root {
+    --ice-deep-space: #050208;
+    --ice-nebula-violet: #2B0F4A;
+    --ice-stellar-purple: #7A1EA1;
+    --ice-accent-purple: #A24DFF;
+    --ice-neon-cyan: #7AFFFF;
+
+    --ice-text-primary: #E9E9F1;
+    --ice-text-dim: #B7AFCF;
+
+    --shadow-neon-purple: 0 0 20px rgba(162,77,255,0.38);
+    --shadow-neon-cyan: 0 0 28px rgba(122,255,255,0.38);
+}
+
+/* ==========================================================================
+   THEME BINDINGS (Kernel)
+   Queste variabili sono ciò che ThemeAgent modifica.
+   ========================================================================== */
+:root {
+    --theme-bg: var(--color-bg);
+    --theme-text: var(--color-text);
+    --theme-panel: var(--color-panel);
+    --theme-accent: var(--color-accent);
+}
