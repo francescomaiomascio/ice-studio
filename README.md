@@ -1,18 +1,28 @@
 # ICE Studio
+## Interactive Development Environment for the ICE Ecosystem
 
-[![ICE Ecosystem](https://img.shields.io/badge/ICE-Ecosystem-8FB9FF?style=flat)](#)
-[![Docs](https://img.shields.io/badge/docs-ICE--Docs-8FB9FF?style=flat)](https://github.com/francescomaiomascio/ice-docs)
-[![Status](https://img.shields.io/badge/status-active--development-6B7280?style=flat)](#)
-[![License](https://img.shields.io/badge/license-MIT-7A7CFF?style=flat)](#)
+ICE Studio is the **primary interaction and development environment**
+of the ICE ecosystem.
 
-ICE Studio is the **development and interaction environment** of the ICE
-ecosystem.
+It provides a **unified workspace** to observe, interact with, and operate
+ICE systems during development, experimentation, and controlled execution.
 
-It provides a graphical interface and integration layer for interacting with
-ICE runtimes, agents, plugins, and services during development and experimentation.
+ICE Studio is not the system.
+It is the **interface through which the system is understood and used**.
 
-ICE Studio is currently under **active refactoring**.
-Its structure, scope, and responsibilities are evolving.
+---
+
+## Position in the ICE Ecosystem
+
+ICE Studio is a **downstream product layer**.
+
+- Conceptual authority is defined by **ICE Foundation**
+- Execution and enforcement are handled by **ICE Runtime / Engine**
+- Intelligence and cognition are supplied by **ICE AI** and **ICE Consciousness**
+- Interaction contracts are defined by **ICE API** and **ICE Protocols**
+
+ICE Studio does not redefine meaning.
+It exposes it.
 
 ---
 
@@ -20,13 +30,45 @@ Its structure, scope, and responsibilities are evolving.
 
 ICE Studio exists to:
 
-- Provide a graphical workspace for ICE systems
-- Integrate runtimes, agents, and services
-- Support experimentation, debugging, and iteration
-- Host plugins, panels, and UI extensions
-- Act as the primary developer-facing environment
+- provide a coherent workspace for ICE systems
+- make execution, state, and decisions observable
+- support development, debugging, and iteration
+- integrate agents, runtimes, and services
+- host panels, plugins, and UI extensions
+- act as the primary developer-facing surface of ICE
 
-This repository does not yet represent a finalized product.
+ICE Studio is where ICE becomes *usable*.
+
+---
+
+## What ICE Studio Is
+
+ICE Studio is:
+
+- an **interactive control surface**
+- a **development environment**
+- a **visual integration layer**
+- a **tool for exploration and validation**
+- a **gateway to ICE systems**
+
+It allows humans to interact with ICE
+without weakening its constraints.
+
+---
+
+## What ICE Studio Is Not
+
+ICE Studio is **not**:
+
+- an authority layer
+- an execution engine
+- an intelligence system
+- a substitute for Runtime or Engine
+- a place where rules are defined
+
+The UI does not decide.
+The UI does not execute.
+The UI does not authorize.
 
 ---
 
@@ -34,51 +76,78 @@ This repository does not yet represent a finalized product.
 
 Current and planned areas include:
 
-- Electron-based desktop application
-- Runtime and agent integration
-- Plugin and extension system
+- desktop application (Electron or equivalent)
+- runtime and agent integration
+- plugin and extension architecture
 - IPC and backend coordination
-- Layout, panels, and workspace management
-- Experimental UI flows and prototypes
+- workspace, layout, and panel management
+- visualization of state, events, and decisions
+- experimental UI flows and prototypes
 
-The internal structure is expected to change significantly.
+Structure and scope are expected to evolve.
 
 ---
 
-## Design Notes
+## Stability and Evolution
 
-- APIs are not stable
-- UI and architecture are subject to refactor
-- Components may be moved or rewritten
-- Backward compatibility is not guaranteed
+ICE Studio is intentionally **iterative**.
 
-This repository prioritizes **iteration speed over stability**.
+- APIs are not yet stable
+- UI structure may change
+- components may be rewritten
+- backward compatibility is not guaranteed
+
+This is expected.
+
+ICE Studio evolves faster than core ICE domains,
+by design.
 
 ---
 
 ## Usage
 
-ICE Studio is intended for **development and internal use**.
+ICE Studio is intended for:
+
+- ICE developers
+- system designers
+- experimentation and exploration
+- controlled operation of ICE systems
 
 It interacts with:
+
 - ICE Runtime
 - ICE Engine
 - ICE AI
+- ICE Consciousness
 - ICE API
 - ICE Protocols
 
-End-user distribution and packaging are **out of scope** at this stage.
+End-user distribution is **not** a goal at this stage.
+
+---
+
+## Canonical Status
+
+ICE Studio is **non-authoritative**.
+
+If ICE Studio were removed,
+the ICE ecosystem would remain conceptually intact.
+
+ICE Studio exists to make ICE *usable*, not *true*.
 
 ---
 
 ## Status
 
-This project is under **active development and refactoring**.
-Consider all functionality experimental.
+ICE Studio is under **active development and refactoring**.
+
+Expect change.
 
 ---
 
-## License
+## Notes
 
-This project is licensed under the terms of the MIT license.
-See the `LICENSE` file for details.
+ICE can exist without a UI.
+
+But a serious system  
+needs a place where humans can face it.
